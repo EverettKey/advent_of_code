@@ -1,0 +1,11 @@
+f_name = "input_5"
+
+part_1 = 0
+part_2 = 0
+
+lines = []
+
+with open(f_name) as f:
+    lines = f.readlines()
+    for line in lines:
+        line = line.strip("\n")
